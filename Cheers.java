@@ -11,7 +11,7 @@ public class Cheers {
                                 System.out.println("Give me an " + currentChar +": " + currentChar + "!");    
                         }
                         else {
-                                System.out.println("Give me a " + currentChar +": " + currentChar + "!");    
+                                System.out.println("Give me a  " + currentChar +": " + currentChar + "!");    
                         }
                         i++;
                 }
