@@ -8,10 +8,10 @@ public class Cheers {
                 for (int count = 0; count < chant.length(); count++) {
                         char currentChar = chant.charAt(i); 
                         if (vowels.indexOf(currentChar) != -1 ) {
-                                System.out.println("Give me an: " + currentChar + "!");    
+                                System.out.println("Give me an " + currentChar +": " + currentChar + "!");    
                         }
                         else {
-                                System.out.println("Give me a:  " + currentChar + "!");    
+                                System.out.println("Give me a " + currentChar +": " + currentChar + "!");    
                         }
                         i++;
                 }
