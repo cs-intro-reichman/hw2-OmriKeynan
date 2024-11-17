@@ -4,7 +4,7 @@ public class Cheers {
                 String chant = args [0].toUpperCase();
                 int repetition = Integer.parseInt(args [1]);
                 int i = 0;
-                String vowels = "AEFHIJLMNOPRSX";
+                String vowels = "AEFHILMNORSX";
                 for (int count = 0; count < chant.length(); count++) {
                         char currentChar = chant.charAt(i); 
                         if (vowels.indexOf(currentChar) != -1 ) {
